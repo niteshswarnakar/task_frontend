@@ -1,0 +1,103 @@
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.headerdiv {
+  height: 8vh;
+}
+
+.headerdiv ul {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+.navlink {
+  text-decoration: none;
+  font-size: 1.6rem;
+  height: 100%;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlink:hover {
+  list-style: none;
+  background-color: white;
+  color: black;
+  font-size: 1.6rem;
+  transition: 0.6s;
+}
+
+.mainsection {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainsection main p {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 3.4rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.mainsection main p:hover {
+  border: 1px solid white;
+}
+
+.todospage {
+  height: 93vh;
+  /* background-color: red; */
+}
+
+.todospage main {
+  height: 93vh;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.todospage main p {
+  font-size: 3.6rem;
+  letter-spacing: 1px;
+}
+
+.todocardpage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.todocard {
+  height: 18rem;
+  width: 22rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid rgb(109, 108, 108);
+}
+
+.todocard:hover {
+  border: 1px solid white;
+}
+
+.todocard h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.todocard h5 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: rgb(218, 218, 218);
+}
